@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Website Created with Jekyll and GitHub Pages"
-date:  # Adjust the date and time as needed
+# date: 2025-04-08 21:00:00 +0900 # Adjust the date and time as needed
 categories: [Announcement, Web Development] # Optional categories
 tags: [jekyll, github pages, website] # Optional tags
 ---
