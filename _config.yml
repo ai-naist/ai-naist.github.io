@@ -4,8 +4,8 @@
 title: Your awesome title
 
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  name: Akihiro INOUE
+  email: inoue.akihiro.ib5@naist.ac.jp
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
@@ -64,25 +64,25 @@ minima:
   #     the order they should be rendered.
   nav_pages:
     - about.md
-#
-#   Set to `true` to show excerpts on the homepage.
-#   show_excerpts: false
-#
-#   Minima date format.
-#     The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
-#     Refer to https://shopify.github.io/liquid/filters/date/ for valid values
-#   date_format: "%b-%d-%Y"
-#
-#   Social Media Links.
-#     Renders icons via Font Awesome Free webfonts CDN, based on ordered list of
-#     entries. Valid entry keys:
-#       * title    Tooltip rendered on hovering over icon.
-#       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
-#       * url      Full URL of social profile.
-#   social_links:
-#     - title: Minima Theme repository at GitHub
-#       icon: github
-#       url: "https://github.com/jekyll/minima"
+  #
+  #   Set to `true` to show excerpts on the homepage.
+  #   show_excerpts: false
+  #
+  #   Minima date format.
+  #     The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
+  #     Refer to https://shopify.github.io/liquid/filters/date/ for valid values
+  #   date_format: "%b-%d-%Y"
+  #
+  #   Social Media Links.
+  #     Renders icons via Font Awesome Free webfonts CDN, based on ordered list of
+  #     entries. Valid entry keys:
+  #       * title    Tooltip rendered on hovering over icon.
+  #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+  #       * url      Full URL of social profile.
+  social_links:
+    - title: ai-naist at GitHub
+      icon: github
+      url: "https://github.com/ai-naist"
 #     - title: Jekyll at X (formerly Twitter)
 #       icon: x-twitter
 #       url: "https://x.com/jekyllrb"
