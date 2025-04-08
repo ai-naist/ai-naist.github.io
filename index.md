@@ -8,8 +8,6 @@
 layout: home
 ---
 
-# Akihiro Inoue
-
 **Affiliation:** [LSM Lab.@NAIST](https://www-lsm.naist.jp)
 
 **Major:** Electrical & Electronic Engineering, Information Engineering, Optimization
