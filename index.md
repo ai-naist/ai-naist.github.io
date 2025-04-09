@@ -22,12 +22,26 @@ layout: home
 ```ruby
 # --- Blog Engine Initialization ---
 
-# Loading necessary components to display articles
-require 'blog_data_loader'   # Loads article data
-require 'text_formatter'     # Formats text display
+# Loading necessary components
+require_relative 'blog_data_loader'
 require 'yaml'
 
 puts "Components loaded. Preparing article list..."
 
+# Load articles into an array
+articles = BlogDataLoader.load_all_articles
+
+# Display article titles if available
+if articles && !articles.empty?
+  puts "\n--- Article Titles ---"
+  articles.each do |article|
+    date = article[:date] || article["date"] || "No Date"
+    title = article[:title] || article["title"] || "Untitled Article"
+    puts "[#{date}]#{title}"
+  end
+else
+  puts "No articles found."
+end
+
 ```
-# Articles
+# --- Article Titles ---
