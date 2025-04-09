@@ -1,11 +1,15 @@
 # Site-wide settings
 # ------------------
-#
+# minima
+# https://github.com/jekyll/minima
 title: Ak Blog
 
 author:
   name: Akihiro INOUE
   email: inoue.akihiro.ib5@naist.ac.jp
+
+url: https://ai-naist.github.io
+google_analytics: G-JBVZ3D2M1P
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
@@ -45,6 +49,7 @@ sass:
 #  *All described config keys below should be nested under the top-level
 #   `minima` key.*
 #
+
 minima:
   #   Minima skin selection. Available skins are:
   #     * classic            Default, light color scheme.
@@ -80,6 +85,3 @@ minima:
     - title: ai-naist at GitHub
       icon: github
       url: "https://github.com/ai-naist"
-#     - title: Jekyll at X (formerly Twitter)
-#       icon: x-twitter
-#       url: "https://x.com/jekyllrb"
