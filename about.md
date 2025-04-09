@@ -6,12 +6,13 @@ permalink: /about/
 
 **Name:** Akihiro Inoue
 
+**Affiliation:** [LSM Lab.@NAIST](https://www-lsm.naist.jp)
+
 **Major:**
 *   Electrical and Electronic Engineering
 *   Information Engineering
 *   Optimization
 
-**Affiliation:** [LSM Lab.@NAIST](https://www-lsm.naist.jp)
 
 **GitHub:** [ai-naist](https://github.com/ai-naist)
 

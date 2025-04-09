@@ -8,14 +8,26 @@
 layout: home
 ---
 
-**Name:** Akihiro Inoue
+> # Welcome
+> I'm a Master's student here in Nara, attempting to navigate the fascinating, complex landscapes where circuits hum, code compiles, and machine learning models... occasionally get stuck in interesting local minima. Consider this a logbook of that optimization journey – fueled by curiosity (and perhaps a bit too much caffeine). Glad to have you aboard.
 
-**Affiliation:** [LSM Lab.@NAIST](https://www-lsm.naist.jp)
 
-**Major:** Electrical & Electronic Engineering, Information Engineering, Optimization
-
----
+# Akihiro Inoue
 
 *   **GitHub:** [ai-naist](https://github.com/ai-naist)
 *   **Portfolio:** [Ak PORTFOLIO](https://ak-portfolio.ddns.net/)
 
+---
+
+```ruby
+# --- Blog Engine Initialization ---
+
+# Loading necessary components to display articles
+require 'blog_data_loader'   # Loads article data
+require 'text_formatter'     # Formats text display
+require 'yaml'
+
+puts "Components loaded. Preparing article list..."
+
+```
+# Articles

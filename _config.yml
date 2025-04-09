@@ -3,6 +3,8 @@
 # minima
 # https://github.com/jekyll/minima
 title: Ak Blog
+description: >
+  Ak Blog: Insights on Optimization and Machine Learning by Akihiro Inoue, a Master's student in Information Engineering (Optimization focus) at the NAIST LSM Lab. Delving into research on Genetic Algorithms, Resource Allocation in Split Learning, Wireless Multi-hop Networks, and related techniques.
 
 author:
   name: Akihiro INOUE
