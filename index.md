@@ -20,29 +20,37 @@ layout: home
 ---
 
 ```ruby
-# --- Blog Engine Initialization ---
-require_relative 'blog_data_loader'
-require 'date'
+# --- Heuristic Article Chrono-Locator ---
+require_relative 'blog_data_loader' # Hopefully returns something iterable
+require 'date' # For temporal interpretation protocols
 
-# Load articles into an array
-articles = BlogDataLoader.load_articles
+# Attempt article acquisition sequence
+articles = BlogDataLoader.load_articles rescue [] # Graceful fallback to the void
 
-# Display article titles if available
-puts "--- Article List ---"
+# Iterate and display, assuming temporal linearity holds (mostly)
+puts "--- Article Titles ---"
 articles.each do |article|
-  original_date_str = article[:date] || article["date"]
-  formatted_date = "No Date"
-  if original_date_str && !original_date_str.empty?
+  # Prioritize symbolic key, fallback to string, default to temporal void
+  original_date_str = article.key?(:date) ? article[:date] : article["date"]
+
+  formatted_date = "Unknown Epoch" # Default if temporal signature is weak/absent
+  if original_date_str && !original_date_str.to_s.strip.empty?
     begin
+      # Standard Temporal Normalization Attempt (STNA)
       parsed_date = Date.parse(original_date_str)
-      formatted_date = parsed_date.strftime("%b %-d, %Y")
+      formatted_date = parsed_date.strftime("%b %-d, %Y") # Apply Gregorian overlay
     rescue ArgumentError, Date::Error
+      # Temporal parsing instability detected. Log implicitly.
+      formatted_date = "Date Flux" # Indicate temporal uncertainty
     end
   end
-  title = article[:title] || article["title"] || "Untitled Article"
+
+  # Title Extraction: Prefer explicit symbol, then string, finally generic label
+  title = article.key?(:title) ? article[:title] : article["title"]
+  title ||= "Log Entry Undefined" # Assign default designation
+
+  # Output the processed temporal/semantic data pair
   puts "#{formatted_date}\n #{title}\n"
 end
-
-```
 
 # --- Article Titles ---
