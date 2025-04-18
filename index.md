@@ -53,4 +53,6 @@ articles.each do |article|
   puts "#{formatted_date}\n #{title}\n"
 end
 
+```
+
 # --- Article Titles ---
