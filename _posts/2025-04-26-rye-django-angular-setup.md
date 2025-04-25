@@ -124,7 +124,6 @@ cd .. # Return to the root directory if needed
 2.  **Add content to the file:** Add the following content to `proxy.conf.json` and save it.
 
     ```json
-    // scheduling-app/frontend/proxy.conf.json
     {
         "/api": {
             "target": "http://localhost:8000",
