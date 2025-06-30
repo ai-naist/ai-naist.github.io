@@ -16,7 +16,7 @@ layout: home
 Navigating Circuits, Code, and Learning
 
 *   **GitHub:** [ai-naist](https://github.com/ai-naist)
-*   **Portfolio:** [Ak PORTFOLIO](https://ak-portfolio.ddns.net/)
+*   **Portfolio:** [Ak PORTFOLIO](https://ak-naist-portfolio.online)
 
 ---
 
